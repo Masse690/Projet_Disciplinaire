@@ -57,6 +57,7 @@ Panneau solaire
 | Noé Massé | Firmware, électronique, capteurs, réseau |
 | Alec Passolunghi | Conception PCB, antenne, boîtier 3D |
 | Matis Chevreaux | à definir |
+
 **Encadrement :** 
 - Fabien Ferrero — Université Côte d'Azur / CNRS / LEAT
 - Dorian Diana — Université Côte d'Azur / LEAT
