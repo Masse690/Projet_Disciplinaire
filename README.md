@@ -55,8 +55,8 @@ Panneau solaire
 | Nom | Rôle |
 |---|---|
 | Noé Massé | Firmware, électronique, capteurs, réseau |
-| Alec Passolunghi | Conception PCB, antenne, boîtier 3D |
-| Matis Chevreaux | à definir |
+| Alec Passolunghi | Conception PCB, boîtier 3D |
+| Matis Chevreaux | Antenne |
 
 **Encadrement :** 
 - Fabien Ferrero — Université Côte d'Azur / CNRS / LEAT
