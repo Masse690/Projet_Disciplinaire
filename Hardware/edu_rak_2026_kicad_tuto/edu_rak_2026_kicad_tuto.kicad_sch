@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "616b6a59-5f05-45b0-8064-d44d37cf09fe")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 26.67 24.13)
+		(size 95.25 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59467daf-932f-4c7b-bd10-b448d2cccd4c")
+		(property "Sheetname" "Capteur"
+			(at 26.67 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Capteur.kicad_sch"
+			(at 26.67 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "edu_rak_2026_kicad_tuto"
+				(path "/616b6a59-5f05-45b0-8064-d44d37cf09fe"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 87.63)
+		(size 33.02 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "810af5f8-dac1-45b8-879d-c64bdeaf99f2")
+		(property "Sheetname" "Alimentation"
+			(at 77.47 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentation.kicad_sch"
+			(at 77.47 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "edu_rak_2026_kicad_tuto"
+				(path "/616b6a59-5f05-45b0-8064-d44d37cf09fe"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 87.63)
+		(size 38.1 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cba5afe1-b9bd-409d-b0ba-b055c82f65ed")
+		(property "Sheetname" "MCU"
+			(at 26.67 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sc.kicad_sch"
+			(at 26.67 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "edu_rak_2026_kicad_tuto"
+				(path "/616b6a59-5f05-45b0-8064-d44d37cf09fe"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

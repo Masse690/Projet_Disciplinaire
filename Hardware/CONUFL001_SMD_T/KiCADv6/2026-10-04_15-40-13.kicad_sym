@@ -1,0 +1,294 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "CONUFL001-SMD-T" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at 8.89 6.35 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "CONUFL001-SMD-T" (id 1) (at 0 0 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "CONN1_CONUFL_TEC" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=CONUFL001-SMD-T&DocType=Data+Sheet&DocLang=English&PartCntxt=CONUFL001-SMD-T&DocFormat=pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "ki_keywords" "CONUFL001-SMD-T" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_locked" "" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "CONN1_CONUFL_TEC" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "CONUFL001-SMD-T_1_1"
+      (polyline
+        (pts
+          (xy 10.16 0)
+          (xy 5.08 0)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.255 -1.905)
+          (xy 8.255 -3.175)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -1.27)
+          (xy 7.62 -3.81)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 0)
+          (xy 8.89 0.846666)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.985 -0.635)
+          (xy 6.985 -4.445)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -2.54)
+          (xy 6.985 -2.54)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 0)
+          (xy 8.89 -0.846666)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.43 -4.445)
+          (xy 11.43 -5.715)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.795 -3.81)
+          (xy 10.795 -6.35)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 2.54)
+          (xy 5.08 -7.62)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -7.62)
+          (xy 12.7 -7.62)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 -7.62)
+          (xy 12.7 2.54)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 2.54)
+          (xy 5.08 2.54)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -3.175)
+          (xy 10.16 -6.985)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -5.08)
+          (xy 10.16 -5.08)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line (at 0 0 0) (length 5.08)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 0 -2.54 0) (length 5.08)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 0 -5.08 0) (length 5.08)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "CONUFL001-SMD-T_1_2"
+      (polyline
+        (pts
+          (xy 7.62 0)
+          (xy 5.08 0)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.255 -1.905)
+          (xy 8.255 -3.175)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -1.27)
+          (xy 7.62 -3.81)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 0)
+          (xy 8.89 0.846666)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.985 -0.635)
+          (xy 6.985 -4.445)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -2.54)
+          (xy 6.985 -2.54)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 0)
+          (xy 8.89 -0.846666)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.43 -4.445)
+          (xy 11.43 -5.715)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.795 -3.81)
+          (xy 10.795 -6.35)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 2.54)
+          (xy 5.08 -7.62)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -7.62)
+          (xy 12.7 -7.62)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 -7.62)
+          (xy 12.7 2.54)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.7 2.54)
+          (xy 5.08 2.54)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 10.16 -3.175)
+          (xy 10.16 -6.985)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 5.08 -5.08)
+          (xy 10.16 -5.08)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line (at 0 0 0) (length 5.08)
+        (name "1" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 0 -2.54 0) (length 5.08)
+        (name "2" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 0 -5.08 0) (length 5.08)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
+

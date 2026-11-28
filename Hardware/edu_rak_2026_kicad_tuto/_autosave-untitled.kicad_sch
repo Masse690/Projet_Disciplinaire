@@ -1,0 +1,841 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2f23b649-9216-4f9c-b584-03f7c6b2e14e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "RF_Module:RAK3172-xx-8-SM-xI"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -17.78 26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "RAK3172-xx-8-SM-xI"
+				(at 18.034 26.162 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "RF_Module:RAK3172"
+				(at 0 -45.212 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Datasheet/"
+				(at 0.254 -41.148 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "LoRa Module, STM32WLE5, RU864/IN865/EU868, RAKwireless"
+				(at 0.254 -42.672 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "IoT LoRa LoRaWAN RF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RAK3172*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RAK3172-xx-8-SM-xI_0_0"
+				(pin input line
+					(at -20.32 20.32 0)
+					(length 2.54)
+					(name "BOOT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
+					(length 2.54)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 2.54)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 15.24 180)
+					(length 2.54)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 12.7 180)
+					(length 2.54)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 10.16 180)
+					(length 2.54)
+					(name "UART2_TX/PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 7.62 180)
+					(length 2.54)
+					(name "UART2_RX/PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -7.62 180)
+					(length 2.54)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RAK3172-xx-8-SM-xI_1_0"
+				(rectangle
+					(start -17.78 25.4)
+					(end 17.78 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -20.32 22.86 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 15.24 0)
+					(length 2.54)
+					(name "PB2/PIN_A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 12.7 0)
+					(length 2.54)
+					(name "PB3/PIN_A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 10.16 0)
+					(length 2.54)
+					(name "PB4/PIN_A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 2.54)
+					(name "PB6/UART1_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "PB7/UART1_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 22.86 180)
+					(length 2.54)
+					(name "RF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "PA4/~{SPI1_SS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 2.54 180)
+					(length 2.54)
+					(name "PA5/SPI1_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "PA6/SPI1_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -2.54 180)
+					(length 2.54)
+					(name "PA7/SPI1_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -10.16 180)
+					(length 2.54)
+					(name "PA10/PIN_A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -12.7 180)
+					(length 2.54)
+					(name "PA11/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -15.24 180)
+					(length 2.54)
+					(name "PA12/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -17.78 180)
+					(length 2.54)
+					(name "PA13/SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -20.32 180)
+					(length 2.54)
+					(name "PA14/SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -22.86 180)
+					(length 2.54)
+					(name "PA15/PIN_A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "RF_Module:RAK3172-xx-8-SM-xI")
+		(at 143.51 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb3cf6ad-9b52-42cf-97d8-4d42bd6cca06")
+		(property "Reference" "U1"
+			(at 145.6533 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RAK3172-xx-8-SM-xI"
+			(at 145.6533 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Module:RAK3172"
+			(at 143.51 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-Module/Datasheet/"
+			(at 143.764 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "LoRa Module, STM32WLE5, RU864/IN865/EU868, RAKwireless"
+			(at 143.764 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "03f7cea8-7469-4cab-b4e0-4c407db2a406")
+		)
+		(pin "31"
+			(uuid "53f59939-882a-43f7-acb0-f56db172ac91")
+		)
+		(pin "5"
+			(uuid "69d826db-8ea7-4948-8799-caefc58c25f1")
+		)
+		(pin "23"
+			(uuid "da748229-0f09-409f-91ed-887e5d1d80b8")
+		)
+		(pin "3"
+			(uuid "c7ee4fff-71e8-4584-9f4d-2cef77147124")
+		)
+		(pin "21"
+			(uuid "e0b6991f-08f1-403a-be21-9f91ecb0c162")
+		)
+		(pin "20"
+			(uuid "4cdee416-38e4-4ee8-8db7-4663664915d0")
+		)
+		(pin "22"
+			(uuid "d3c050f2-8627-4222-a91a-533128b8837b")
+		)
+		(pin "9"
+			(uuid "25cbdd5d-febb-4b87-b202-c65683826085")
+		)
+		(pin "12"
+			(uuid "96bd9026-fab6-419f-9c97-4efd473a76b6")
+		)
+		(pin "29"
+			(uuid "b0a6b10a-c83c-4c4d-974f-c5a15d8e7615")
+		)
+		(pin "4"
+			(uuid "9fd059fa-5396-4a5e-aa6e-2bb0d7025484")
+		)
+		(pin "16"
+			(uuid "4504f864-5cc9-4c89-a0b5-858839371aeb")
+		)
+		(pin "28"
+			(uuid "56d33819-bc68-4b97-a979-49c502a12d1c")
+		)
+		(pin "24"
+			(uuid "835bb21f-e483-4d40-bc2b-9a5fdce3785d")
+		)
+		(pin "26"
+			(uuid "5f6d7725-028e-46f4-bb8c-006b61fb2540")
+		)
+		(pin "19"
+			(uuid "c19f7b74-2a4f-449c-81f7-c98254178fe9")
+		)
+		(pin "2"
+			(uuid "594a3260-44c8-43f7-911e-13a4845d4ebd")
+		)
+		(pin "6"
+			(uuid "513ca149-e2f1-446e-930d-7fec053c824c")
+		)
+		(pin "11"
+			(uuid "888e92cf-8286-4342-8376-6bd2ddbd6038")
+		)
+		(pin "14"
+			(uuid "232eba8f-251d-4f6d-ad90-48b6a4e62244")
+		)
+		(pin "30"
+			(uuid "7b95245a-51dc-430e-95cf-8ceb4f2621c1")
+		)
+		(pin "25"
+			(uuid "28522617-9366-42e3-9b25-97bcb332d598")
+		)
+		(pin "1"
+			(uuid "ba6dfabc-e416-4ddc-871f-c41d0cf73e95")
+		)
+		(pin "27"
+			(uuid "2b5640c5-e0b4-40b1-8d79-878edf3251c8")
+		)
+		(pin "13"
+			(uuid "73ce3453-fa4a-4123-83cc-279780905449")
+		)
+		(pin "10"
+			(uuid "929c204c-31f8-4a95-8294-46ea7d567906")
+		)
+		(pin "8"
+			(uuid "4ea5897e-ddc4-4ed8-803b-47e15d1eea8b")
+		)
+		(pin "17"
+			(uuid "38e4bff4-6b95-429b-9de0-e55a321ad6e4")
+		)
+		(pin "7"
+			(uuid "4c900a34-87f6-47c6-a638-3251ffacff98")
+		)
+		(pin "15"
+			(uuid "641b63b9-71d1-421e-ba3e-a203926e6889")
+		)
+		(pin "32"
+			(uuid "d7ade1dc-294b-4198-bbde-702e6b389c97")
+		)
+		(instances
+			(project ""
+				(path "/616b6a59-5f05-45b0-8064-d44d37cf09fe/41e66e6a-839e-4c6f-9baa-dea56a921597"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/616b6a59-5f05-45b0-8064-d44d37cf09fe/df1cb23b-a2ea-4b54-be6b-31838103e299"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "New_Library")(type "KiCad")(uri "/home/noe/Desktop/FAC/Master_Estel/M2/Projet disciplinaire/edu_rak_2026_kicad_tuto/Antenne/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "Antenne")(type "KiCad")(uri "${KIPRJMOD}/Antenne.kicad_sym")(options "")(descr ""))
+)
